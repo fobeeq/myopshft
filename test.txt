@@ -5,11 +5,11 @@ commit 1
 test SSH
 test SSH -1
 
+## remote repository settings 
 git remote rm origin
-git remote add webrepo git@github.com:fobeeq/myopshft.git
 
-git remote add origin git@github.com:fobeeq/myopshft.git
-git remote add webrepo https://github.com/fobeeq/myopshft.git
+git remote add webrepo git@github.com:fobeeq/myopshft.git       // SSH
+git remote add webrepo https://github.com/fobeeq/myopshft.git   // HTTP
 
 git push --set-upstream webrepo master
     Username for 'https://github.com':  [input your user name]
@@ -25,3 +25,7 @@ git push --set-upstream webrepo master
            cecf997..ea000a8  master -> master
         Branch master set up to track remote branch master from webrepo.
 
+git push
+
+
+## OPEN
