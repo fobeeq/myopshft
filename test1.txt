@@ -17,3 +17,5 @@ line 2  bbb
 
 # test for clone from remote with SSH access
 git clone git@github.com:fobeeq/myopshft.git
+
+# test for branch @home
