@@ -8,8 +8,8 @@ test SSH -1
 git remote rm origin
 git remote add webrepo git@github.com:fobeeq/myopshft.git
 
-git remote add origin git@github.com:yangyumo123/gitrepo.git
 git remote add origin git@github.com:fobeeq/myopshft.git
+git remote add origin https://github.com/fobeeq/myofshft.git
 
 
 
