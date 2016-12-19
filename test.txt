@@ -9,7 +9,19 @@ git remote rm origin
 git remote add webrepo git@github.com:fobeeq/myopshft.git
 
 git remote add origin git@github.com:fobeeq/myopshft.git
-git remote add origin https://github.com/fobeeq/myofshft.git
+git remote add webrepo https://github.com/fobeeq/myopshft.git
 
-
+git push --set-upstream webrepo master
+    Username for 'https://github.com':  [input your user name]
+    Password for 'https://fobeeq@github.com': [and passwd]
+    [response]
+        Counting objects: 12, done.
+        Delta compression using up to 4 threads.
+        Compressing objects: 100% (12/12), done.
+        Writing objects: 100% (12/12), 1.12 KiB | 0 bytes/s, done.
+        Total 12 (delta 7), reused 0 (delta 0)
+        remote: Resolving deltas: 100% (7/7), completed with 1 local objects.
+        To https://github.com/fobeeq/myopshft.git
+           cecf997..ea000a8  master -> master
+        Branch master set up to track remote branch master from webrepo.
 
