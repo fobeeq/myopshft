@@ -2,3 +2,15 @@ line 1  aaa
 line 2  bbb
 
 test for git pull
+[this file updated by anyone and pushed to remote repo, now we pull the change from remote ]
+    c:\DEV\Support\Tools\git_Repo\myopshft>git pull
+        remote: Counting objects: 3, done.
+        remote: Compressing objects: 100% (2/2), done.
+        remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+        Unpacking objects: 100% (3/3), done.
+        From https://github.com/fobeeq/myopshft
+           04484a0..9f6e0b1  master     -> webrepo/master
+        Updating 04484a0..9f6e0b1
+        Fast-forward
+         test1.txt | 4 +++-
+         1 file changed, 3 insertions(+), 1 deletion(-)
