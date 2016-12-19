@@ -5,5 +5,8 @@ commit 1
 test SSH
 test SSH -1
 
+git remote rm origin
+git remote add webrepo git@github.com:fobeeq/myopshft.git
+
 
 
